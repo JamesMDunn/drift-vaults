@@ -31,7 +31,8 @@
 	"scripts": {
 		"cli": "ts-node cli/cli.ts",
 		"clean": "rm -rf lib",
-		"build": "yarn clean && tsc"
+		"build": "yarn clean && tsc",
+		"prepare": "yarn build"
 	},
 	"resolutions": {
 		"@types/bn.js": "5.1.3"
